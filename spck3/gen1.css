@@ -1,0 +1,50 @@
+@keyframes sprite {
+    100% {transform: translateY(5px);}
+}
+
+@keyframes reveal {
+    from {transform: translateX(0%);}
+    to {transform: translateX(-130%);}
+}
+
+#body {
+    padding: 0%;
+    margin: 0%;
+    margin-right: 0.2%;
+    background-image: url("spck3-img/background-color.png");
+    user-select: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#heading {
+    width: 100%;
+    height: auto;
+    border: 2px solid black
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    user-select: none;
+}
+
+#textbox {
+    width: 100%;
+    height: auto;
+}
+
+#text {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: PKMN RBYGSC;
+    font-size: 115%;
+    font-weight: bolder;
+    line-height: 200%;
+    text-align: right;
+    color: red;
+    cursor: pointer;
+    user-select: none;
+}
