@@ -23,3 +23,4 @@ window.onload = function () {
         div.innerText = quotes[currentQuoteIndex];
     }
 }
+
